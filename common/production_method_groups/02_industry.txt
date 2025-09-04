@@ -11,3 +11,16 @@ pmg_base_building_synthetic_rubber_plants = {
 		pm_improved_synth_rubber_production
 	}
 }
+
+pmg_base_building_biofuel_plants = {
+	production_methods = {
+		pm_biofuel_production
+	}
+}
+
+pm_advanced_building_biofuel_plants = {
+	production_methods = {
+		pm_biofuel_no_advanced_production
+		pm_biofuel_advanced_production
+	}
+}

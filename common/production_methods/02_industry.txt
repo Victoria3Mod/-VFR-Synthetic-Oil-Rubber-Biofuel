@@ -67,22 +67,54 @@ pm_synth_rubber_production = {
 		}
 	}
 }
-pm_improved_synth_rubber_production = {
-	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
+
+pm_biofuel_production = {
+	texture = "gfx/interface/icons/production_method_icons/vaccum_brine_electrolysis.dds"
 	
 	pollution_generation = 10
 
 	unlocking_technologies = {
-		pasteurization
+		biofuel
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_oil_add = 50
-			goods_input_tools_add = 10
+			goods_input_grain_add = 50
+			goods_input_fertilizer_add = 10
 			goods_input_electricity_add = 20
 
-			goods_output_rubber_add = 80
+			goods_output_oil_add = 50
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 1250
+		}
+	}
+}
+
+pm_biofuel_no_advanced_production = {
+	texture = "gfx/interface/icons/production_method_icons/no_distillery.dds"
+}
+
+pm_biofuel_advanced_production = {
+	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
+	
+	pollution_generation = 5
+
+	unlocking_technologies = {
+		biofuel
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = -20
+			goods_input_sugar_add = 15
+			goods_input_fruit_add = 15
+			goods_input_fertilizer_add = 5
+
+			goods_output_oil_add = 30
 		}
 
 		level_scaled = {

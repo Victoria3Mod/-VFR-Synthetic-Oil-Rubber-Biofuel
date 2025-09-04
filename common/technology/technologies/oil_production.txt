@@ -1,0 +1,13 @@
+﻿biofuel = {
+	era = era_5
+	texture = "gfx/interface/icons/technology/biofuel.dds"
+	category = production
+
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
