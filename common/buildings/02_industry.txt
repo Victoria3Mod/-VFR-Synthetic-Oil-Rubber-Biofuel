@@ -4,6 +4,8 @@
 	city_type = city
 	levels_per_mesh = 5
 	
+
+	
 	unlocking_technologies = {
 		plastics
 	}
@@ -13,8 +15,21 @@
 	}
 	
 	required_construction = construction_cost_high
-        ownership_type = self
-        background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	possible = {
+		owner = {
+			NOT = {
+				OR = {
+					has_law = law_type:law_industry_banned
+					has_law = law_type:law_extraction_economy
+				}
+			}
+		}
+	}
+	
+    ownership_type = self
+		
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_synthetic_rubber_plants = {
@@ -22,7 +37,7 @@ building_synthetic_rubber_plants = {
 	icon = "gfx/interface/icons/building_icons/2.dds"
 	city_type = city
 	levels_per_mesh = 5
-	
+		
 	unlocking_technologies = {
 		art_silk
 	}
@@ -32,8 +47,21 @@ building_synthetic_rubber_plants = {
 	}
 	
 	required_construction = construction_cost_high
-        ownership_type = self
-        background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	possible = {
+		owner = {
+			NOT = {
+				OR = {
+					has_law = law_type:law_industry_banned
+					has_law = law_type:law_extraction_economy
+				}
+			}
+		}
+	}
+	
+    ownership_type = self
+	
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_biofuel_plants = {
@@ -52,6 +80,19 @@ building_biofuel_plants = {
 	}
 	
 	required_construction = construction_cost_high
-        ownership_type = self
-        background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	possible = {
+		owner = {
+			NOT = {
+				OR = {
+					has_law = law_type:law_industry_banned
+					has_law = law_type:law_extraction_economy
+				}
+			}
+		}
+	}
+	
+    ownership_type = self
+		
+     background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
