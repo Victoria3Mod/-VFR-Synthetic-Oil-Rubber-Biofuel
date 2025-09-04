@@ -1,0 +1,33 @@
+l_english:
+  # Buildings
+  building_synthetic_oil_plants:0 "Synthetic Oil Plants"
+  building_synthetic_oil_plants_lens_option:0 "Expand $building_synthetic_oil_plants$"
+  building_synthetic_rubber_plants:0 "Synthetic Rubber Plants"
+  building_synthetic_rubber_plants_lens_option:0 "Expand $building_synthetic_rubber_plants$"
+  building_biofuel_plants:0 "Biofuel Plants"
+  building_biofuel_plants_lens_option:0 "Expand $building_biofuel_plants$"
+
+  # Production Method Groups
+  pmg_base_building_synthetic_oil_plants:0 "Synthetic Oil Production"
+  pmg_base_building_synthetic_rubber_plants:0 "Synthetic Rubber Production"
+  pmg_base_building_biofuel_plants:0 "Basic Biofuel Production"
+  pmg_advanced_building_biofuel_plants:0 "Advanced Biofuel Production"
+  pmg_ownership_building_biofuel_plants:0 "Ownership"
+
+  # Production Methods
+  pm_synth_oil_production:0 "Synthetic Oil Production"
+  pm_improved_synth_oil_production:0 "Improved Synthetic Oil Production"
+  pm_synth_rubber_production:0 "Synthetic Rubber Production"
+  pm_improved_synth_rubber_production:0 "Improved Synthetic Rubber Production"
+  pm_biofuel_production:0 "Biofuel Production"
+  pm_biofuel_no_advanced_production:0 "No Advanced Biofuel Processing"
+  pm_biofuel_advanced_production:0 "Advanced Biofuel Processing"
+
+  # Ownership
+  pmg_ownership_capital_building_synthetic_oil_plants:0 "Capital Ownership"
+  pmg_ownership_capital_building_synthetic_rubber_plants:0 "Capital Ownership"
+  pmg_ownership_capital_building_biofuel_plants:0 "Capital Ownership"
+  pm_publicly_traded_building_synthetic_plants:0 "Publicly Traded"
+
+  # Technology
+  biofuel:0 "Biofuel"
