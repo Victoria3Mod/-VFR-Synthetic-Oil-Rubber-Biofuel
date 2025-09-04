@@ -1,6 +1,15 @@
 ﻿pm_synth_oil_production = {
 	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds" 
-	pollution_generation = 10
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -21,7 +30,15 @@
 pm_improved_synth_oil_production = {
 	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
 	
-	pollution_generation = 10
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
 
 	unlocking_technologies = {
 		combustion_engine
@@ -45,8 +62,16 @@ pm_improved_synth_oil_production = {
 }
 pm_synth_rubber_production = {
 	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
-	pollution_generation = 10
 
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
 	unlocking_technologies = {
 		plastics
 	}
@@ -71,7 +96,15 @@ pm_synth_rubber_production = {
 pm_biofuel_production = {
 	texture = "gfx/interface/icons/production_method_icons/vaccum_brine_electrolysis.dds"
 	
-	pollution_generation = 10
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
 
 	unlocking_technologies = {
 		biofuel
@@ -101,7 +134,15 @@ pm_biofuel_no_advanced_production = {
 pm_biofuel_advanced_production = {
 	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
 	
-	pollution_generation = 5
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
 
 	unlocking_technologies = {
 		biofuel
@@ -118,9 +159,7 @@ pm_biofuel_advanced_production = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 500
-			building_employment_machinists_add = 1250
-			building_employment_engineers_add = 1250
+			building_employment_engineers_add = 500
 		}
 	}
 }

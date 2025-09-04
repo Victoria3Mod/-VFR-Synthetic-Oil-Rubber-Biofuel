@@ -18,7 +18,7 @@ pmg_base_building_biofuel_plants = {
 	}
 }
 
-pm_advanced_building_biofuel_plants = {
+pmg_advanced_building_biofuel_plants = {
 	production_methods = {
 		pm_biofuel_no_advanced_production
 		pm_biofuel_advanced_production

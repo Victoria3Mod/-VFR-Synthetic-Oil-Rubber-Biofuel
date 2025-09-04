@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   # Buildings
   building_synthetic_oil_plants:0 "Synthetic Oil Plants"
   building_synthetic_oil_plants_lens_option:0 "Expand $building_synthetic_oil_plants$"
@@ -22,12 +22,6 @@ l_english:
   pm_biofuel_production:0 "Biofuel Production"
   pm_biofuel_no_advanced_production:0 "No Advanced Biofuel Processing"
   pm_biofuel_advanced_production:0 "Advanced Biofuel Processing"
-
-  # Ownership
-  pmg_ownership_capital_building_synthetic_oil_plants:0 "Capital Ownership"
-  pmg_ownership_capital_building_synthetic_rubber_plants:0 "Capital Ownership"
-  pmg_ownership_capital_building_biofuel_plants:0 "Capital Ownership"
-  pm_publicly_traded_building_synthetic_plants:0 "Publicly Traded"
 
   # Technology
   biofuel:0 "Biofuel"
