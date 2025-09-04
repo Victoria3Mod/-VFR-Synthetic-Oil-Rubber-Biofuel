@@ -48,7 +48,7 @@ building_biofuel_plants = {
 	
 	production_method_groups = {
 		pmg_base_building_biofuel_plants
-		pm_advanced_building_biofuel_plants
+		pmg_advanced_building_biofuel_plants
 	}
 	
 	required_construction = construction_cost_high

@@ -1,4 +1,4 @@
-l_russian:
+﻿l_russian:
   # Здания
   building_synthetic_oil_plants:0 "Заводы синтетической нефти"
   building_synthetic_oil_plants_lens_option:0 "Расширить $building_synthetic_oil_plants$"
@@ -22,12 +22,6 @@ l_russian:
   pm_biofuel_production:0 "Производство биотоплива"
   pm_biofuel_no_advanced_production:0 "Без продвинутой переработки биотоплива"
   pm_biofuel_advanced_production:0 "Продвинутая переработка биотоплива"
-
-  # Форма собственности
-  pmg_ownership_capital_building_synthetic_oil_plants:0 "Капиталистическая собственность"
-  pmg_ownership_capital_building_synthetic_rubber_plants:0 "Капиталистическая собственность"
-  pmg_ownership_capital_building_biofuel_plants:0 "Капиталистическая собственность"
-  pm_publicly_traded_building_synthetic_plants:0 "Публичная компания"
 
   # Технология
   biofuel:0 "Биотопливо"
